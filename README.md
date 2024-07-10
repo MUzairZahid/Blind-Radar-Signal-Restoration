@@ -1,6 +1,6 @@
 # BRSR-OpGAN-Blind-Radar-Signal-Restoration-using-Operational-Generative-Adversarial-Network
 
-This repository contains the code and data associated with the paper. It includes implementations for generating baseline data as well as an extended data generation framework and methodologies for signal restoration using Operational Generative Adversarial Networks (OpGANs).
+This repository contains the code and data associated with the paper. It includes implementations for generating baseline data, an extended data generation framework, and methodologies for Blind Radar Signal Restoration using an Operational Generative Adversarial Network (BRSR-OpGAN)
 
 ## Repository Contents
 - `baseline_data_generator/`: Code adapted for generating baseline dataset.
