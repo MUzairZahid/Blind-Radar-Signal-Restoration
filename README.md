@@ -48,7 +48,7 @@ plot (b). Common artifacts include Additive White Gaussian Noise (AWGN), Echo, I
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/BRSR-OpGAN.git
+   git clone https://github.com/yourusername/Blind-Radar-Signal-Restoration.git
    cd BRSR-OpGAN
    ```
 
