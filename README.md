@@ -171,11 +171,3 @@ For questions, feedback, or collaboration inquiries, please reach out to:
 **Muhammad Uzair Zahid**  
 Email: [muhammaduzair.zahid@tuni.fi](mailto:muhammaduzair.zahid@tuni.fi)  
 LinkedIn: [https://www.linkedin.com/in/uzair-zahid/](https://www.linkedin.com/in/uzair-zahid/)
-
-We welcome any feedback or collaboration opportunities!
-
----
-
-This README includes placeholders for all specified figures, tables, and detailed descriptions of each component, making it suitable for presenting the project on GitHub. Replace the placeholders with actual paths or URLs to complete the
-
- README. Let me know if there’s anything more specific you’d like to add!
