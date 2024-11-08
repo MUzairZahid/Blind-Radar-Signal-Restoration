@@ -139,7 +139,7 @@ The following table summarizes the SNR improvements achieved by BRSR-OpGAN under
 
 Additionally, BRSR-OpGAN's qualitative restoration capabilities are shown in the examples below, illustrating significant improvement in signal clarity across diverse corruptions.
 
-> ![Figure 5: Qualitative Restoration Examples](figures/qualitative.png)  
+> ![Figure 5: Qualitative Restoration Examples](figures/qualitative_1.png)  
 > *Figure 5: Sample radar signal restoration results using BRSR-OpGAN.*
 
 ---
