@@ -14,8 +14,8 @@ Radar signal restoration is essential in applications like autonomous driving, a
 - [Introduction](#introduction)
 - [Repository Structure](#repository-structure)
 - [Installation](#installation)
-- [Dataset Generation](#dataset-generation)
 - [Running the Code](#running-the-code)
+- [Dataset Generation](#dataset-generation)
 - [Proposed Approach](#proposed-approach)
 - [Results](#results)
 - [References](#references)
@@ -65,6 +65,18 @@ plot (b). Common artifacts include Additive White Gaussian Noise (AWGN), Echo, I
      ```
 
 ---
+## Running the Code
+
+### 1. Data Preprocessing
+
+
+### 2. Model Training and Evaluation
+
+
+#### Important Arguments:
+
+
+---
 
 ## Dataset Generation
 
@@ -93,30 +105,7 @@ The extended dataset provides a challenging environment for BRSR-OpGAN to learn 
 
 ---
 
-## Running the Code
 
-### 1. Data Preprocessing
-
-Run the data processing script to prepare the dataset:
-```bash
-python ecg_data_processing.py --raw_data_dir ./data/mit-bih --processed_data_dir ./processed_data
-```
-
-### 2. Model Training and Evaluation
-
-Once the data is prepared, you can train and evaluate the BRSR-OpGAN model:
-```bash
-python main.py --wavelet_type "mexh" --sampling_rate 360 --q 3 --processed_data_path ./processed_data/mitbih_processed.pkl --save_model_dir ./saved_models
-```
-
-#### Important Arguments:
-- `wavelet_type`: Type of wavelet used in signal preprocessing (e.g., "mexh").
-- `sampling_rate`: Sampling rate for radar signals (default: 360 Hz).
-- `q`: Non-linearity degree for Self-ONN.
-- `processed_data_path`: Path to the processed dataset.
-- `save_model_dir`: Directory to save trained model weights.
-
----
 
 ## Proposed Approach
 
