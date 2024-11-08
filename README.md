@@ -134,12 +134,12 @@ The BRSR-OpGAN model architecture consists of operational layers and GAN-based r
 
 The following table summarizes the SNR improvements achieved by BRSR-OpGAN under different noise and interference conditions. This comparative analysis highlights the advantages of BRSR-OpGAN over traditional methods.
 
-> ![Table 4: Performance Comparison](path_to_performance_table)  
+> ![Table 4: Performance Comparison](figures/results.png)  
 > *Table 4: Comparative SNR performance of BRSR-OpGAN under various noise conditions.*
 
 Additionally, BRSR-OpGAN's qualitative restoration capabilities are shown in the examples below, illustrating significant improvement in signal clarity across diverse corruptions.
 
-> ![Figure 5: Qualitative Restoration Examples](path_to_qualitative_restoration_examples)  
+> ![Figure 5: Qualitative Restoration Examples](figures/qualitative.png)  
 > *Figure 5: Sample radar signal restoration results using BRSR-OpGAN.*
 
 ---
