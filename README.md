@@ -84,7 +84,7 @@ The dataset generation process includes both baseline and extended datasets:
 
 ### 1. Baseline Data Generation
 
-The **baseline data generator** creates synthetic radar signals with controlled noise (AWGN) and echo artifacts. This dataset serves as an initial benchmark for signal restoration models. Portions of the baseline dataset generation code are adapted from the following research paper:
+The baseline data generator creates synthetic radar signals with controlled noise in the form of Additive White Gaussian Noise (AWGN) only, providing a structured dataset to benchmark signal restoration models. Portions of the baseline dataset generation code are adapted from the following research paper:
 
 > Jiang, Mengting, et al. "Multilayer Decomposition Denoising Empowered CNN for Radar Signal Modulation Recognition." IEEE Access (2024). [GitHub Link]
 
@@ -104,8 +104,6 @@ The extended dataset provides a challenging environment for BRSR-OpGAN to learn 
 > *Figure 2: Illustration of extended BRSR dataset generation with a random choice of artifacts and their severities.*
 
 ---
-
-
 
 ## Proposed Approach
 
@@ -146,11 +144,9 @@ Additionally, BRSR-OpGAN's qualitative restoration capabilities are shown in the
 
 ## References
 
-1. Zahid, M. U., Kiranyaz, S., Yildirim, A., & Gabbouj, M. (2024). "BRSR-OpGAN: Blind Radar Signal Restoration using Operational Generative Adversarial Network." *IEEE Transactions on ...*.
+1. Zahid, M. U., Kiranyaz, S., Yildirim, A., & Gabbouj, M. (2024). "BRSR-OpGAN: Blind Radar Signal Restoration using Operational Generative Adversarial Network." arXiv e-prints. 2024 Jul:arXiv-2407.*.
 2. Jiang, Mengting, et al. "Multilayer Decomposition Denoising Empowered CNN for Radar Signal Modulation Recognition." IEEE Access (2024). [GitHub Link]
 3. FastONN Library: Available at [https://github.com/junaidmalik09/fastonn](https://github.com/junaidmalik09/fastonn).
-4. MIT-BIH Arrhythmia Database: [https://physionet.org/content/mitdb/1.0.0/](https://physionet.org/content/mitdb/1.0.0/)
-
 ---
 
 ## Contact and Collaboration
