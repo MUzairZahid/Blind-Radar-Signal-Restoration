@@ -13,6 +13,10 @@ This directory contains MATLAB scripts for generating baseline and extended rada
 - **plot_signals_awgn.m** - Visualizes baseline signals (clean vs. AWGN-corrupted)
 - **plot_signals_blind.m** - Visualizes extended dataset signals with multiple artifact components
 
+### Data Preparation Scripts
+- **DataPreparation_Baseline.py** - Processes baseline dataset and splits into train/validation/test sets
+- **DataPreparation_Extended.py** - Processes extended dataset with multiple distortion types
+
 ### Required Data
 - **mixing_signals.mat** - Contains signal patterns used for interference simulation
 - **waveform-types/** - Directory containing radar waveform generation functions
@@ -95,11 +99,65 @@ Dataset_extended_test/
    run DataGeneration_Extended.m
    ```
 
+4. **Process datasets with Python**
+   ```python
+   # Process baseline dataset
+   python DataPreparation_Baseline.py
+   
+   # Process extended dataset
+   python DataPreparation_Extended.py
+   ```
+
+## Prepared Dataset Structure
+
+After running the Python preparation scripts, the datasets are organized as follows:
+
+```
+Prepared_Dataset/
+├── base_dataset.pickle - Contains baseline dataset
+└── extended_dataset.pickle - Contains extended dataset with distortion components
+```
+
+Each pickle file contains a dictionary with the following structure:
+```
+{
+    'train': {
+        'clean': array[...],    # Clean signals (training set)
+        'noisy': array[...],    # Noisy signals (training set)
+        'label': array[...],    # Class labels (training set)
+        'SNR': array[...],      # SNR values (training set)
+        'distortions': array[...], # [For extended dataset only]
+    },
+    'validation': {
+        'clean': array[...],    # Clean signals (validation set)
+        'noisy': array[...],    # Noisy signals (validation set)
+        'label': array[...],    # Class labels (validation set)
+        'SNR': array[...],      # SNR values (validation set)
+        'distortions': array[...], # [For extended dataset only]
+    },
+    'test': {
+        'clean': array[...],    # Clean signals (test set)
+        'noisy': array[...],    # Noisy signals (test set)
+        'label': array[...],    # Class labels (test set)
+        'SNR': array[...],      # SNR values (test set)
+        'distortions': array[...], # [For extended dataset only]
+    }
+}
+```
+
 ## Requirements
 
+### MATLAB
 - MATLAB R2019b or later
 - Signal Processing Toolbox
 - Time-Frequency Toolbox (tftb-0.2)
+
+### Python
+- Python 3.7+
+- h5py
+- numpy
+- scikit-learn
+- pickle
 
 ## Citation
 
