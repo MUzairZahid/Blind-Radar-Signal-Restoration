@@ -103,7 +103,7 @@ Dataset_extended_test/
 
 ## Citation
 
-If you use these datasets in your research, please cite our paper:
+If you use these datasets in your research, please cite our papers:
 
 ```bibtex
 @article{zahid2024brsr,
@@ -112,7 +112,9 @@ If you use these datasets in your research, please cite our paper:
   journal={arXiv preprint arXiv:2407.13949},
   year={2024}
 }
+```
 
+```bibtex
 @article{zahid2025core,
   title={CoRe-Net: Co-Operational Regressor Network with Progressive Transfer Learning for Blind Radar Signal Restoration},
   author={Zahid, Muhammad Uzair and Kiranyaz, Serkan and Yildirim, Alper and Gabbouj, Moncef},
