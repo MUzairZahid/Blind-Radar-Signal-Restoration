@@ -95,15 +95,6 @@ Dataset_extended_test/
    run DataGeneration_Extended.m
    ```
 
-4. **Visualize signals (optional)**
-   ```matlab
-   % For baseline dataset
-   plot_signals_awgn(clean_signal, noisy_signal, SNR_value);
-   
-   % For extended dataset
-   plot_signals_blind(clean_signal, distorted_signal, awgn_component, echo_component, cci_component, SNR_value);
-   ```
-
 ## Requirements
 
 - MATLAB R2019b or later
@@ -116,9 +107,16 @@ If you use these datasets in your research, please cite our paper:
 
 ```bibtex
 @article{zahid2024brsr,
-  title={BRSR-OpGAN: Blind Radar Signal Restoration using Operational Generative Adversarial Network},
+  title={Brsr-opgan: Blind radar signal restoration using operational generative adversarial network},
   author={Zahid, Muhammad Uzair and Kiranyaz, Serkan and Yildirim, Alper and Gabbouj, Moncef},
-  journal={},
+  journal={arXiv preprint arXiv:2407.13949},
   year={2024}
+}
+
+@article{zahid2025core,
+  title={CoRe-Net: Co-Operational Regressor Network with Progressive Transfer Learning for Blind Radar Signal Restoration},
+  author={Zahid, Muhammad Uzair and Kiranyaz, Serkan and Yildirim, Alper and Gabbouj, Moncef},
+  journal={arXiv preprint arXiv:2501.17125},
+  year={2025}
 }
 ```
