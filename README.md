@@ -1,7 +1,5 @@
 # BRSR-OpGAN: Blind Radar Signal Restoration using Operational GAN
 
-BRSR-OpGAN ([paper link](https://arxiv.org/abs/2407.13949)) is a novel approach for restoring radar signals corrupted by various artifacts without making prior assumptions about the corruption type or severity.
-
 This repository contains the official implementation of BRSR-OpGAN (Blind Radar Signal Restoration using Operational Generative Adversarial Network), a novel approach for restoring radar signals corrupted by various artifacts without making prior assumptions about the corruption type or severity.
 
 ## Project Overview
@@ -20,23 +18,6 @@ For more details, please see our papers:
 - [BRSR-OpGAN: Blind Radar Signal Restoration using Operational Generative Adversarial Network](https://arxiv.org/abs/2407.13949)
 - [CoRe-Net: Co-Operational Regressor Network with Progressive Transfer Learning for Blind Radar Signal Restoration](https://arxiv.org/abs/2501.17125)
 
-## Repository Structure
-
-```
-BRSR-OpGAN/
-├── data_generation/          # Data generation and preparation scripts
-│   ├── README.md             # Documentation for data generation
-│   ├── DataGeneration_*.m    # MATLAB scripts for generating datasets
-│   ├── DataPreparation_*.py  # Python scripts for processing datasets
-│   └── ...
-├── models.py                 # Model implementations
-├── models_SelfONN.py         # Simple U-Net architecture with SelfONN
-├── models_SelfONN_residual.py  # Residual U-Net architecture with SelfONN
-├── utils.py                  # Utility functions for training and evaluation
-├── train.py                  # Training script with various configuration options
-├── test_BRSR-OpGAN.py        # Testing script for evaluating multiple models
-└── ...
-```
 
 ## Setup
 
