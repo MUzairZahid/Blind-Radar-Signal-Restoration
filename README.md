@@ -1,7 +1,5 @@
 # BRSR-OpGAN: Blind Radar Signal Restoration using Operational GAN
 
-BRSR-OpGAN ([paper link](https://arxiv.org/abs/2407.13949)) is a novel approach for restoring radar signals corrupted by various artifacts without making prior assumptions about the corruption type or severity.
-
 This repository contains the official implementation of BRSR-OpGAN (Blind Radar Signal Restoration using Operational Generative Adversarial Network), a novel approach for restoring radar signals corrupted by various artifacts without making prior assumptions about the corruption type or severity.
 
 ## Project Overview
